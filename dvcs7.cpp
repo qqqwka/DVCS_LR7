@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
 	if (!outputFile.is_open()) //Выдать ошибку,если выходной файл невозможно открыть
 	{
 		cout << "The output data file cannot be opened. The file may have the wrong extension.";
-		return 4;
+		return 9; //8 commit
 	}
 	else
 	{
