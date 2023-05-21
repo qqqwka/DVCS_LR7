@@ -51,7 +51,7 @@ int main(int argc, char* argv[])
 
 	vector<vector<double>> totalCoordinatesVector;
 
-	int numberOfVertices = 0; //количество вершин в многоугольнике
+	int numberOfVertices = 3; //10 commit
 
 	double coordinateItself; //сама координата
 
