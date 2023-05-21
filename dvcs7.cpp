@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	if (argc == 2) //1 commit
 	{
 		cout << "The input data file is specified incorrectly. It is possible that the file at the specified location does not exist.\n";
-		return 3; //2 commit
+		return 6; //5 commit
 	}
 	//Выдать ошибку, если выходной файл не указан в аргументах командной строки
 	if (argc == 4) //3 commit
