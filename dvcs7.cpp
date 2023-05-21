@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
 	if (!inputFile.is_open()) //Выдать ошибку,если входной файл невозможно открыть
 	{
 		cout << "The input data file cannot be opened. The file may have the wrong extension.";
-		return 3;
+		return 5; //6 commit
 	}
 
 	ofstream outputFile;	//Файл вывода
