@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
 
 	string inStr; //Переменная считывающая данные из файла ввода
 
-	int numberOfPolygons = 0; //Количество многоугольников
+ 	int numberOfPolygons = 2; //9 commit
 
 	vector<vector<double>> initialCoordinatesVector; //двумерный вектор, содержащий многоугольники (вектор многоугольников)
 
