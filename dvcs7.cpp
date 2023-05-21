@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
 	if (argc == 4) //3 commit
 	{
 		cout << "The output data file is specified incorrectly. It is possible that the file at the specified location does not exist.\n";
-		return 2;
+		return 7; //4 commit
 	}
 
 	ifstream inputFile;	//Файл ввода
