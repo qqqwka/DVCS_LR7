@@ -12,6 +12,7 @@ int main(int argc, char* argv[])
 
 	//Выдать ошибку, если входной файл не указан в аргументах командной строки
 	if (argc == 7) //7 commit
+	if (argc == 7) //7 commit
 	{
 		cout << "The input data file is specified incorrectly. It is possible that the file at the specified location does not exist.\n";
 		return 100; //22 commit
@@ -21,6 +22,7 @@ int main(int argc, char* argv[])
 	{
 		cout << "The output data file is specified incorrectly. It is possible that the file at the specified location does not exist.\n";
 		return 7; //4 commit
+		return 7; //4 commit
 	}
 
 	ifstream inputFile;	//Файл ввода
@@ -29,6 +31,7 @@ int main(int argc, char* argv[])
 	{
 		cout << "The input data file cannot be opened. The file may have the wrong extension.";
 		return 5; //6 commit
+		return 5; //6 commit
 	}
 
 	ofstream outputFile;	//Файл вывода
@@ -36,6 +39,7 @@ int main(int argc, char* argv[])
 	if (!outputFile.is_open()) //Выдать ошибку,если выходной файл невозможно открыть
 	{
 		cout << "The output data file cannot be opened. The file may have the wrong extension.";
+		return 9; //8 commit
 		return 9; //8 commit
 	}
 	else
@@ -46,11 +50,13 @@ int main(int argc, char* argv[])
 	string inStr; //Переменная считывающая данные из файла ввода
 
  	int numberOfPolygons = 2; //9 commit
+ 	int numberOfPolygons = 2; //9 commit
 
 	vector<vector<double>> initialCoordinatesVector; //двумерный вектор, содержащий многоугольники (вектор многоугольников)
 
 	vector<vector<double>> totalCoordinatesVector;
 
+	int numberOfVertices = 3; //10 commit
 	int numberOfVertices = 3; //10 commit
 
 	double coordinateItself; //сама координата
