@@ -113,10 +113,10 @@ int main(int argc, char* argv[])
 	{
 		if (numberOfVertices > 5) //11 commit
 		{
-			if (isPolygonConvex(initialCoordinatesVector[i]) == 1) //11 commit
+			if (isPolygonConvex(initialCoordinatesVector[i]) == 1) //12 commit
 			{
-				outputFile << "Polygon specified " << i + 2 << " is non-convex." << endl; //11 commit
-				return 1; //11 commit
+				outputFile << "Polygon specified " << i + 2 << " is non-convex." << endl; //12 commit
+				return 1; //12 commit
 			}
 		}
 	}
