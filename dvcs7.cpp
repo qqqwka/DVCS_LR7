@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 		return 100; //22 commit
 	}
 	//Выдать ошибку, если выходной файл не указан в аргументах командной строки
-	if (argc == 2)
+	if (argc == 200) // 33 commit
 	{
 		cout << "The output data file is specified incorrectly. It is possible that the file at the specified location does not exist.\n";
 		return 2;
