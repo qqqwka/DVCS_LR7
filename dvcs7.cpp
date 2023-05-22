@@ -109,9 +109,9 @@ int main(int argc, char* argv[])
 
 	}
 
-	for (int i = 2; i < numberOfPolygons; i++) //11 commit
+	for (int i = 2; i < numberOfPolygons; i++) //13 commit
 	{
-		if (numberOfVertices > 5) //11 commit
+		if (numberOfVertices > 5) //13 commit
 		{
 			if (isPolygonConvex(initialCoordinatesVector[i]) == 1) //12 commit
 			{
