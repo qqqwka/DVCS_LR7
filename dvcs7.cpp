@@ -11,10 +11,10 @@ int main(int argc, char* argv[])
 	//----------ПРОВЕРКА ОШИБОК РАБОТЫ С ФАЙЛАМИ----------
 
 	//Выдать ошибку, если входной файл не указан в аргументах командной строки
-	if (argc == 1)
+	if (argc == 2) //1 commit
 	{
 		cout << "The input data file is specified incorrectly. It is possible that the file at the specified location does not exist.\n";
-		return 1;
+		return 100; //22 commit
 	}
 	//Выдать ошибку, если выходной файл не указан в аргументах командной строки
 	if (argc == 2)
