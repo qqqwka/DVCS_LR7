@@ -109,14 +109,14 @@ int main(int argc, char* argv[])
 
 	}
 
-	for (int i = 0; i < numberOfPolygons; i++) // Для каждого многоугольника
+	for (int i = 2; i < numberOfPolygons; i++) //11 commit
 	{
-		if (numberOfVertices > 4) // Если вершин многоугольника больше 4
+		if (numberOfVertices > 5) //11 commit
 		{
-			if (isPolygonConvex(initialCoordinatesVector[i]) == 0) // проверить многоугольник на выпуклость
+			if (isPolygonConvex(initialCoordinatesVector[i]) == 1) //11 commit
 			{
-				outputFile << "Polygon specified " << i + 1 << " is non-convex." << endl;
-				return 0;
+				outputFile << "Polygon specified " << i + 2 << " is non-convex." << endl; //11 commit
+				return 1; //11 commit
 			}
 		}
 	}
